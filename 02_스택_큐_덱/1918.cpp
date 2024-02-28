@@ -57,7 +57,7 @@ string infix_to_postfix(const string& infix) {
 
 int main() {
     string infix;
-    getline(cin, infix); // 중위 표기식 입력 받음
+    getline(cin, infix); // 중위 표기식 입력 받기
 
     // 중위 표기식을 후위 표기식으로 변환하여 출력
     cout << infix_to_postfix(infix) << "\n";

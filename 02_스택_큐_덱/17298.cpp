@@ -13,7 +13,7 @@ vector<int> find_next_greater_elements(const vector<int>& sequence) {
     // 수열의 모든 원소를 순회
     // i: 현재 원소의 인덱스
     for (int i = 0; i < n; ++i) {
-        // 스택이 비어있지 않고, 현재 원소가 스택의 top에 있는 원소보다 크다면
+        // 스택이 비어있지 않고, 현재 원소가 스택의 top에 있는 원소보다 크다면,
         // 스택s: 아직 오큰수를 찾지 못한 원소들의 인덱스 담고 있음
         while (!s.empty() && sequence[i] > sequence[s.top()]) {
             // 스택의 맨 위에 있는 원소가 현재 원소보다 작다면, 현재 원소가 그 원소의 오큰수

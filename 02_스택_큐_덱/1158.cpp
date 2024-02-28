@@ -14,7 +14,7 @@ void josephus_sequence(int n, int k) {
     auto it = survivors.begin(); // 이터레이터 초기 위치
     cout << "<";
     while (!survivors.empty()) {
-        // k번째 사람을 찾기 위해, 현재 위치에서부터 시작하여 k-1명의 사람을 건너뛰게 됨
+        // k번째 사람을 찾기 위해, 현재 위치에서부터 시작하여 k-1명의 사람을 건너뜀.
         for (int count = 1; count < k; count++) {
             it++;
             // 리스트의 끝에 도달하면 다시 시작

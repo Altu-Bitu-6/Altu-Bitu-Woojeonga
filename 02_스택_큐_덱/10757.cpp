@@ -37,7 +37,7 @@ string add_large_numbers(const string& a, const string& b) {
 
 int main() {
     string a, b;
-    cin >> a >> b; // 두 큰 수 입력 받음
+    cin >> a >> b; // 두 큰 수 입력 받기
 
     // 입력받은 두 수를 더하고 결과 출력
     cout << add_large_numbers(a, b) << "\n";

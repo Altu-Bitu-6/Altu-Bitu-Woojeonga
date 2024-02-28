@@ -21,7 +21,7 @@ bool is_balanced(const string& str) {
             s.pop();
         }
     }
-    // 모든 검사가 끝난 후 스택이 비어있어야 균형이 잡힌 것
+    // 모든 검사가 끝난 후 스택이 비어있어야 균형이 잡힘
     return s.empty();
 }
 
