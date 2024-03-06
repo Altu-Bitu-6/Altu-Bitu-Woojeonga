@@ -54,7 +54,7 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n, k; // 바퀴의 칸 수와 회전 횟수
+    int n, k; // 바퀴의 칸 수, 회전 횟수
     cin >> n >> k;
 
     vector<int_char_pair> record(k); // 회전 정보를 저장하는 벡터
