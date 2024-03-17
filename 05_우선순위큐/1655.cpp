@@ -37,7 +37,7 @@ public:
 };
 
 int main() {
-    ios::sync_with_stdio(false); // 입출력 속도 향상을 위해
+    ios::sync_with_stdio(false); // 입출력 속도 향상 위해
     cin.tie(NULL);
 
     int n; // 백준이가 외치는 정수의 개수

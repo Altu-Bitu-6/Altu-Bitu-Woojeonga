@@ -15,7 +15,7 @@ void process_gifts(priority_queue<int>& gifts, int num_gifts) {
     } else {
         int value;
         for (int i = 0; i < num_gifts; ++i) {
-            cin >> value; // 선물 가치 입력
+            cin >> value; // 선물 가치를 입력
             gifts.push(value); // 선물 가치를 우선순위 큐에 추가
         }
     }

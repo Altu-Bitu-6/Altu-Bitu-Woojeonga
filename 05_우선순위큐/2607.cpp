@@ -23,7 +23,7 @@ bool areFrequenciesSimilar(const string& word1, const string& word2) {
         diffCount += abs(freq1[i] - freq2[i]);
     }
 
-    // 완전히 같거나, 한 문자만큼의 차이를 허용
+    // 완전히 같거나, 한 문자만큼의 차이 허용
     return diffCount == 0 || diffCount == 1 || (diffCount == 2 && word1.length() == word2.length());
 }
 
