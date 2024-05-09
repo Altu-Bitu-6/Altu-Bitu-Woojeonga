@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// 과자들을 조카 수에 맞게 분배할 수 있는지 확인하는 함수
+// 과자들을 조카 수에 맞게 분배할 수 있는지 확인
 bool can_distribute(const vector<int>& snacks, int num_cousins, int length) {
     long long count = 0;
     for (int snack : snacks) {
