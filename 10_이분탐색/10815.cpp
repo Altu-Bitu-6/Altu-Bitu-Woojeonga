@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// 숫자 카드를 입력받아 unordered_set에 저장하여 반환하는 함수
+// 숫자 카드를 입력받아 unordered_set에 저장하여 반환
 unordered_set<int> input_cards(int card_count)
 {
     unordered_set<int> cards;
